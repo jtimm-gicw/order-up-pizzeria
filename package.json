@@ -1,0 +1,26 @@
+{
+  "name": "order-up-pizzeria",
+  "version": "1.0.0",
+  "description": "This is an application for code-401 classes 11-13. It teaches the concepts related to event driven programming.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node demo/monolithic/app.js",
+    "start:modular": "node demo/modular/app.js",
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtimm-gicw/order-up-pizzeria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jtimm-gicw/order-up-pizzeria/issues"
+  },
+  "homepage": "https://github.com/jtimm-gicw/order-up-pizzeria#readme",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
